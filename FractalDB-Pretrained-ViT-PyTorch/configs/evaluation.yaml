@@ -1,0 +1,11 @@
+seed: 42
+epochs: 200
+ckpt: null
+resume: null
+path2db: null
+no_cuda: false
+defaults:
+  - data: cifar10
+  - model: deit_tiny_patch16_224
+  - optim: adamw
+  - scheduler: cosine
